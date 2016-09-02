@@ -11,7 +11,7 @@
         <th>DOB</th>
         <th>Telephone Number</th>
       </tr>
-    {% for dumb in dummy %}
+    {% for dumb in contacts %}
     <tr>
     <td>{{dumb.first_name}} {{dumb.last_name}}</td>
     <td>{{dumb.date_of_birth}}</td>
@@ -20,7 +20,7 @@
 
     <!-- {{dummy | dump}} -->
     {% endfor %}
-  </table>  
+  </table>
 
     <h2>The limit does not exist</h2>
   </div>
